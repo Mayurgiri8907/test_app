@@ -7,6 +7,8 @@ const upload = require('./config/imagesconfig');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const dotenv = require('dotenv').config();
+// console.log(process.env.PORT);
+
 const app = express();
 
 app.use(express.json());
